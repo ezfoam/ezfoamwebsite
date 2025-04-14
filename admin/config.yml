@@ -10,7 +10,7 @@ public_folder: "/assets/img" # Public path for media files
 collections:
   - name: "pages"
     label: "Pages"
-    folder: ""               # An empty string means Netlify CMS will manage files in the root. 
+    folder: "_pages"               # An empty string means Netlify CMS will manage files in the root. 
                               # If your pages are in a subfolder (e.g. _pages), update this value.
     create: true
     slug: "{{slug}}"
