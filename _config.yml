@@ -2,7 +2,7 @@
 title: "EZ Foam Website"
 url: "https://github.com/ezfoam/ezfoamwebsite/" # Replace with your GitHub Pages URL or custom domain
 baseurl: ""                          # Leave empty for a user site or specify a subpath for project pages
-timezone: "America/Denver"         # Update to your local timezone
+timezone: "America/Denver"           # Update to your local timezone
 
 # Author details
 author:
@@ -28,6 +28,7 @@ nav_items:
   - title: "Contact"
     url: "/contact"
 
-# Exclude the CMS admin folder from the final build
-exclude:
+# Do not exclude the CMS admin folder so that it gets published
+# You can optionally include it explicitly:
+include:
   - admin
