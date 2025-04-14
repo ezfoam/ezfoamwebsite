@@ -1,0 +1,19 @@
+# admin/config.yml
+backend:
+  name: github
+  branch: main   # or your default branch name (e.g., master)
+  repo: ezfoam/ezfoamwebsite  # Update to point to your fork/repository
+
+media_folder: "assets/img"   # Folder where uploaded images will be stored within your repo
+public_folder: "/assets/img" # Public-facing path for media files
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    folder: ""               # Use an empty string if your pages are in the root directory,
+                             # or specify a folder (e.g., "_pages") if that's where you store them.
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
