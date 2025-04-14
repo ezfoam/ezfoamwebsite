@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: master             # or main, depending on your default branch
+  branch: master         # or main, depending on your default branch
   repo: ezfoam/ezfoamwebsite
 
 media_folder: "assets/img"
@@ -9,10 +9,17 @@ public_folder: "/assets/img"
 collections:
   - name: "pages"
     label: "Pages"
-    folder: "_pages"         # Ensure that you store your non-blog pages here
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Slug", name: "slug", widget: "string", default: "" }   # optional custom slug field
+    files:
+      - label: "Hello World"
+        name: "helloWorld"
+        file: "hello-world.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Picture", name: "picture", widget: "image" }
+          - { label: "Label Default", name: "label_default", widget: "string" }
+          - { label: "Label Primary", name: "label_primary", widget: "string" }
+          - { label: "Label Success", name: "label_success", widget: "string" }
+          - { label: "Label Info", name: "label_info", widget: "string" }
+          - { label: "Label Warning", name: "label_warning", widget: "string" }
+          - { label: "Label Danger", name: "label_danger", widget: "string" }
