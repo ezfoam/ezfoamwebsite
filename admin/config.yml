@@ -1,7 +1,7 @@
 # admin/config.yml
 backend:
   name: github
-  branch: main   # or your default branch name (e.g., master)
+  branch: master   # or your default branch name (e.g., master)
   repo: ezfoam/ezfoamwebsite  # This points to your fork/repository
 
 media_folder: "assets/img"   # Uploaded images will be stored here
