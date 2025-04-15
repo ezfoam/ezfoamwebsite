@@ -6,6 +6,10 @@ body {
   background-color: #f0f0f0;
 }
 
+.map-offset {
+  margin-top: 50px;
+}
+
 /* Ensure the carousel container holds its height */
 .carousel-inner {
   position: relative;
