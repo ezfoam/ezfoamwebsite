@@ -1,10 +1,25 @@
+/* PARALLAX BACKGROUND FOR THE ENTIRE PAGE */
+body {
+  background: url('/assets/img/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  /* Optional fallback background color */
+  background-color: #f0f0f0;
+}
+
+/* FADE TRANSITION FOR THE CAROUSEL SLIDER */
 .carousel-fade .carousel-inner .item {
   opacity: 0;
-  transition-property: opacity;
-  transition-duration: 0.75s;
-  transition-timing-function: ease-in-out;
+  /* The following shorthand sets the duration (0.75s) and easing function */
+  transition: opacity 0.75s ease-in-out;
 }
 
 .carousel-fade .carousel-inner .item.active {
   opacity: 1;
+}
+
+/* Optionally, if you want a smooth transition when the next/previous slide
+   appears (for Bootstrap 3, additional selectors might be needed): */
+.carousel-fade .carousel-inner .item.next,
+.carousel-fade .carousel-inner .item.prev {
+  opacity: 0;
 }
