@@ -22,7 +22,7 @@
         <h3><i class="fa fa-heart"></i> Socialize</h3>
         <div id="social-icons">
           {% if site.instagram_link %}
-            <a href="{{ instagram.com/ezfoamspray }}" class="btn-group instagram">
+            <a href="{{ site.instagram_link }}" class="btn-group instagram">
               <i class="fa fa-instagram"></i>
             </a>
           {% endif %}
@@ -32,7 +32,7 @@
             </a>
           {% endif %}
           {% if site.facebook_link %}
-            <a href="{{ facebook.com/ezfoam }}" class="btn-group facebook">
+            <a href="{{ site.facebook_link }}" class="btn-group facebook">
               <i class="fa fa-facebook"></i>
             </a>
           {% endif %}
@@ -41,7 +41,7 @@
     </div>
   </div>
   <div class="copyright text-center">
-    <p>&copy; Copyright {{ site.time | date: '%Y' }}, EZ Foam Insulation Inc. 
+    <p>&copy; Copyright {{ site.time | date: '%Y' }}, EZ Foam Insulation Inc.
       <br>Theme ported by <a href="https://melvinchng.github.io/" target="_blank">Melvin Ch'ng</a>
     </p>
   </div>
