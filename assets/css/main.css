@@ -6,28 +6,40 @@ body {
   background-color: #f0f0f0;
 }
 
-/* Ensure the carousel container is positioned relatively */
-.carousel-fade .carousel-inner {
+/* Ensure the carousel container holds its height */
+.carousel-inner {
   position: relative;
+  width: 100%;
+  overflow: hidden;
+  min-height: 400px; /* Set this to the height of your images */
 }
 
-/* Stack all carousel items on top of each other */
+/* All carousel items are positioned absolutely on top of one another */
 .carousel-fade .carousel-inner .item {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   opacity: 0;
-  transition: opacity 1.75s ease-in-out;  /* increased duration for smoother effect */
+  transition: opacity 1.75s ease-in-out;
   z-index: 0;
+  display: block; /* Force block so the container retains height */
 }
 
-/* Make the active item visible and on top */
+/* The active slide is visible */
 .carousel-fade .carousel-inner .item.active {
-  position: relative;
+  opacity: 1;
+  z-index: 2;
+}
+
+/* If Bootstrap adds temporary classes (like .left or .right) during slide events, 
+   force those items to also maintain opacity until the transition completes */
+.carousel-fade .carousel-inner .item.active.left,
+.carousel-fade .carousel-inner .item.active.right {
   opacity: 1;
   z-index: 1;
 }
+
 
 .site-logo {
   width: 200px;   /* Recommended starting width: adjust as necessary */
