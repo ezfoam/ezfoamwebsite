@@ -6,7 +6,6 @@
         <h3>Contact:</h3>
         <p class="footer-contact">
           EZ Foam Insulation Inc. <br>
-          License #: [Your License Number] <br>
           Phone: 719-822-0117 <br>
           Email: ezfoam@outlook.com<br>
         </p>
@@ -31,6 +30,11 @@
               <i class="fa fa-linkedin-square"></i>
             </a>
           {% endif %}
+          {% if site.twitter_link %}
+            <a href="{{ site.twitter_link }}" class="btn-group twitter">
+              <i class="fa fa-twitter"></i>
+            </a>
+          {% endif %}
           {% if site.facebook_link %}
             <a href="{{ site.facebook_link }}" class="btn-group facebook">
               <i class="fa fa-facebook"></i>
@@ -41,8 +45,6 @@
     </div>
   </div>
   <div class="copyright text-center">
-    <p>&copy; Copyright {{ site.time | date: '%Y' }}, EZ Foam Insulation Inc.
-      <br>Theme ported by <a href="https://melvinchng.github.io/" target="_blank">Melvin Ch'ng</a>
-    </p>
+    <p>&copy; 2025 EZ Foam Insulation Inc. All rights reserved.</p>
   </div>
 </footer>
