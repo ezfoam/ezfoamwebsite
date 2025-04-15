@@ -235,6 +235,13 @@ address {
   padding-bottom: 15px;
   margin-bottom: 0;
 }
+
+/* Ensure the logo is aligned to the far left */
+.navbar-header .navbar-brand {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  text-align: left;
+}
 /*
 * ==========================================================================
 * Navbar Nav Links
