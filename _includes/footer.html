@@ -30,11 +30,6 @@
               <i class="fa fa-linkedin-square"></i>
             </a>
           {% endif %}
-          {% if site.twitter_link %}
-            <a href="{{ site.twitter_link }}" class="btn-group twitter">
-              <i class="fa fa-twitter"></i>
-            </a>
-          {% endif %}
           {% if site.facebook_link %}
             <a href="{{ site.facebook_link }}" class="btn-group facebook">
               <i class="fa fa-facebook"></i>
@@ -45,6 +40,6 @@
     </div>
   </div>
   <div class="copyright text-center">
-    <p>&copy; 2025 EZ Foam Insulation Inc. All rights reserved.</p>
+    <p>&copy; Copyright {{ site.time | date: '%Y' }}, EZ Foam Insulation Inc. All rights reserved. 2025</p>
   </div>
 </footer>
