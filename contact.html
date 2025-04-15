@@ -50,8 +50,17 @@ published: true
               <!-- Email Field -->
               <div class="form-group">
                 <label for="email">Email *</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
-              </div>
+                <input 
+                  type="email" 
+                  class="form-control" 
+                  id="email" 
+                  name="email" 
+                  placeholder="Enter your email" 
+                  required 
+                  pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" 
+                  title="Please enter a valid email address (e.g., user@example.com)">
+               </div>
+
               <!-- Job Address Field -->
               <div class="form-group">
                 <label for="address">Job Address</label>
@@ -60,7 +69,10 @@ published: true
               <!-- Project Details Field -->
               <div class="form-group">
                 <label for="message">Project Details</label>
-                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter project details or information"></textarea>
+                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter project details"></textarea>
+                <small class="form-text text-muted">
+                Please include dimensions (W x L), height information, and roof pitch if applicable.
+                </small>
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
               <div id="form-success" style="display:none; color: green; margin-top: 15px;">
