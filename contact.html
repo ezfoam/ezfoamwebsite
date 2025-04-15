@@ -61,11 +61,14 @@ published: true
                   title="Please enter a valid email address (e.g., user@example.com)">
                </div>
 
-              <!-- Job Address Field -->
-              <div class="form-group">
-                <label for="address">Job Address</label>
-                <input type="text" class="form-control" id="address" name="address" placeholder="Enter your job address">
-              </div>
+              <!-- Job Address Field with Autocomplete -->
+                <div class="form-group">
+                  <label for="address">Job Address</label>
+                  <input type="text" class="form-control" id="address" name="address" placeholder="Enter your job address">
+                  <small class="form-text text-muted">
+                  Start typing an address to see suggestions, or enter your address manually.
+                  </small>
+                </div>
               <!-- Project Details Field -->
               <div class="form-group">
                 <label for="message">Project Details</label>
