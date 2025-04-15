@@ -101,18 +101,18 @@ published: true
 <!-- Initialize Google Places Autocomplete for the Job Address Field -->
 <script>
   function initAutocomplete() {
+    // Get the address input by its ID
     var input = document.getElementById('address');
-    var autocomplete = new google.maps.places.Autocomplete(input, {
-      types: ['geocode']
-    });
-    autocomplete.addListener('place_changed', function() {
-      var place = autocomplete.getPlace();
-      console.log("Selected address:", place.formatted_address);
-    });
+    console.log("Initializing autocomplete on:", input);
+    if (input) {
+      var autocomplete = new google.maps.places.Autocomplete(input, {
+        types: ['geocode']  // restrict results to addresses
+      });
+      autocomplete.addListener('place_changed', function() {
+        var place = autocomplete.getPlace();
+        console.log("Selected address:", place.formatted_address);
+      });
+    }
   }
 </script>
-<script async defer
-  src="https://maps.googleapis.com/maps/api/js?key={{ site.google_api_key }}&libraries=places&callback=initAutocomplete">
-</script>
-
-
+<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_api_key }}&libraries=places&callback=initAutocomplete"></script>
