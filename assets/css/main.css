@@ -25,9 +25,9 @@ body {
 }
 
 .site-logo {
-  width: 300px;    /* Adjust as desired */
-  height: auto;    /* Maintain aspect ratio */
-  max-width: 100%; /* Prevent overflow on small screens */
+  width: 200px;   /* Recommended starting width: adjust as necessary */
+  height: auto;   /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure responsiveness on smaller screens */
 }
 
 @media (max-width: 767px) {
