@@ -29,3 +29,9 @@ body {
   height: auto;    /* Maintain aspect ratio */
   max-width: 100%; /* Prevent overflow on small screens */
 }
+
+@media (max-width: 767px) {
+  .site-logo {
+    width: 200px;
+  }
+}
