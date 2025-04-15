@@ -42,9 +42,9 @@ body {
 
 
 .site-logo {
-  width: 200px;   /* Recommended starting width: adjust as necessary */
-  height: auto;   /* Maintain aspect ratio */
-  max-width: 100%; /* Ensure responsiveness on smaller screens */
+  width: 250px;  /* Increased width to 250px (25% bigger than 200px) */
+  height: auto;
+  max-width: 100%;
 }
 
 @media (max-width: 767px) {
