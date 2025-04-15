@@ -4,11 +4,11 @@ permalink: /contact
 published: true
 ---
 <!-- Main Container -->
-
 <div class="container-fluid-kamn">
   <div class="row">
+    <!-- Optional Map Section -->
     <div>
-      <iframe width="100%" height="450px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{{ site.google_map }}"></iframe>
+      <iframe width="100%" height="450px" frameborder="0" scrolling="no" src="{{ site.google_map }}"></iframe>
       <br />
     </div>
     <div class="container">
@@ -21,44 +21,53 @@ published: true
         <br>
       </div>
       <div class="col-lg-8">
-        <!-- Updated Contact Form with Popout Shadow & Netlify Forms -->
-        <div class="feedback-form shadow-box" 
-             style="background: #fff; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 4px;">
-          
+        <!-- Updated Contact Form with Popout Style, using Netlify Forms -->
+        <div class="feedback-form shadow-box" style="background: #fff; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 4px;">
           <div id="contact-response"></div>
-          
-          <form name="contact" method="POST" data-netlify="true" id="contact-form">
-            <!-- This hidden input is required for Netlify Forms -->
+          <!-- Netlify Form Integration -->
+          <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" id="contact-form">
+            <!-- Hidden Inputs for Netlify Forms -->
             <input type="hidden" name="form-name" value="contact">
+            <p style="display:none;">
+              <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+            </p>
             <fieldset>
               <!-- Name Field -->
               <div class="form-group">
-                <label class="control-label" for="name">Name *</label>
-                <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name" required>
+                <label for="name">Name *</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
               </div>
-
-              <!-- Email or Phone Field -->
+              <!-- Phone Field -->
               <div class="form-group">
-                <label class="control-label" for="contact">Email or Phone *</label>
-                <input type="text" class="form-control" name="contact" id="contact" placeholder="Enter your email or phone" required>
-                <small class="form-text text-muted">Please provide either an email or phone number.</small>
+                <label for="phone">Phone *</label>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number" required>
               </div>
-              
-              <!-- Message Field -->
+              <!-- Email Field -->
               <div class="form-group">
-                <label class="control-label" for="message">Project Details</label>
-                <textarea class="form-control" name="message" id="message" rows="4" placeholder="Enter information or project details"></textarea>
+                <label for="email">Email *</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
               </div>
-              
+              <!-- Job Address Field -->
+              <div class="form-group">
+                <label for="address">Job Address</label>
+                <input type="text" class="form-control" id="address" name="address" placeholder="Enter your job address">
+              </div>
+              <!-- Project Details Field -->
+              <div class="form-group">
+                <label for="message">Project Details</label>
+                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter project details or information"></textarea>
+              </div>
               <!-- Submit Button -->
               <button type="submit" class="btn btn-primary">Submit</button>
+              <!-- Success Message (can be handled via Netlify) -->
+              <div id="form-success" style="display:none; color: green; margin-top: 15px;">
+                Thank you for contacting us! We'll get back to you shortly.
+              </div>
             </fieldset>
           </form>
-          
         </div> 
       </div>
     </div>
   </div>
-</div>    
-    
-<!--End Main Container -->
+</div>
+<!-- End Main Container -->
