@@ -10,6 +10,8 @@ author:
   name: "Jose Dominguez"
   email: "ezfoam@outlook.com"
 
+google_api_key: "{{ env.GOOGLE_PLACES_API_KEY }}"
+
 # Markdown and Code Highlighting
 markdown: kramdown
 highlighter: rouge
