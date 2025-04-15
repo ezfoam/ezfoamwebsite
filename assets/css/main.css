@@ -9,8 +9,11 @@ body {
 /* FADE TRANSITION FOR THE CAROUSEL SLIDER */
 .carousel-fade .carousel-inner .item {
   opacity: 0;
-  /* The following shorthand sets the duration (0.75s) and easing function */
-  transition: opacity 0.75s ease-in-out;
+  transition: opacity 1s ease-in-out;  /* increased duration to 1 second */
+}
+
+.carousel-fade .carousel-inner .item.active {
+  opacity: 1;
 }
 
 .carousel-fade .carousel-inner .item.active {
