@@ -59,22 +59,23 @@ published: true
                   required 
                   pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" 
                   title="Please enter a valid email address (e.g., user@example.com)">
-               </div>
+              </div>
 
               <!-- Job Address Field with Autocomplete -->
-                <div class="form-group">
-                  <label for="address">Job Address</label>
-                  <input type="text" class="form-control" id="address" name="address" placeholder="Enter your job address">
-                  <small class="form-text text-muted">
+              <div class="form-group">
+                <label for="address">Job Address</label>
+                <input type="text" class="form-control" id="address" name="address" placeholder="Enter your job address">
+                <small class="form-text text-muted">
                   Start typing an address to see suggestions, or enter your address manually.
-                  </small>
-                </div>
+                </small>
+              </div>
+              
               <!-- Project Details Field -->
               <div class="form-group">
                 <label for="message">Project Details</label>
                 <textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter project details"></textarea>
                 <small class="form-text text-muted">
-                Please include dimensions (W x L), height information, and roof pitch if applicable.
+                  Please include dimensions (W x L), height information, and roof pitch if applicable.
                 </small>
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
@@ -89,3 +90,20 @@ published: true
   </div>
 </div>
 <!-- End Main Container -->
+
+<!-- Initialize Google Places Autocomplete for the Job Address Field -->
+<script>
+  function initAutocomplete() {
+    var input = document.getElementById('address');
+    var autocomplete = new google.maps.places.Autocomplete(input, {
+      types: ['geocode']
+    });
+    autocomplete.addListener('place_changed', function() {
+      var place = autocomplete.getPlace();
+      console.log("Selected address:", place.formatted_address);
+    });
+  }
+</script>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8unu6BQC-1dUY0Wkw9pLVI1MBZ5FWwvo&libraries=places&callback=initAutocomplete">
+</script>
