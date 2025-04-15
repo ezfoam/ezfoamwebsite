@@ -6,25 +6,27 @@ body {
   background-color: #f0f0f0;
 }
 
-/* FADE TRANSITION FOR THE CAROUSEL SLIDER */
+/* Ensure the carousel container is positioned relatively */
+.carousel-fade .carousel-inner {
+  position: relative;
+}
+
+/* Stack all carousel items on top of each other */
 .carousel-fade .carousel-inner .item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   opacity: 0;
-  transition: opacity 1s ease-in-out;  /* increased duration to 1 second */
+  transition: opacity 1.75s ease-in-out;  /* increased duration for smoother effect */
+  z-index: 0;
 }
 
+/* Make the active item visible and on top */
 .carousel-fade .carousel-inner .item.active {
+  position: relative;
   opacity: 1;
-}
-
-.carousel-fade .carousel-inner .item.active {
-  opacity: 1;
-}
-
-/* Optionally, if you want a smooth transition when the next/previous slide
-   appears (for Bootstrap 3, additional selectors might be needed): */
-.carousel-fade .carousel-inner .item.next,
-.carousel-fade .carousel-inner .item.prev {
-  opacity: 0;
+  z-index: 1;
 }
 
 .site-logo {
