@@ -10,8 +10,6 @@ author:
   name: "Jose Dominguez"
   email: "ezfoam@outlook.com"
 
-google_api_key: "{{ env.GOOGLE_PLACES_API_KEY }}"
-
 # Markdown and Code Highlighting
 markdown: kramdown
 highlighter: rouge
@@ -21,6 +19,7 @@ permalink: pretty
 logo: "/assets/img/logo.png"         # Update or remove if not needed
 favicon: "/assets/img/favicon.ico"     # Update or remove if not needed
 google_analytics: "G-P9D4ZPNSRZ"   # GA4 Measurement ID
+google_api_key: "{{ env.GOOGLE_PLACES_API_KEY }}"
 
 # Social Media Links: Update these with the URLs to your official social media profiles.
 instagram_link: "https://instagram.com/ezfoamspray"
