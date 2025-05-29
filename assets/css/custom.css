@@ -241,7 +241,9 @@ span{
     background-color: #f8f9fa;
   }
 
-
+footer a:hover {
+  text-decoration: underline;
+}
 
 /*slider css*/
   .c-item {
