@@ -397,6 +397,7 @@ img.why-img {
   border-radius:50%;
   background:rgba(255,255,255,0.15);
   color:#fff;
+  margin-top: 35px;
   margin-right:10px;
   transition:0.3s ease;
 }
