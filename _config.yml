@@ -37,8 +37,6 @@ nav_items:
 
 # Do not exclude the CMS admin folder so that it gets published
 # You can optionally include it explicitly:
-include:
-  - admin
 
 exclude:
   - admin
