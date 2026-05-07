@@ -1,41 +1,89 @@
 <head>
-  <!-- Meta Data & Title -->
+  <!-- Basic Meta -->
   <meta charset="utf-8">
-  <title>{% if page.title %}{{ page.title }} - EZ Foam &amp; Insulation Colorado{% else %}EZ Foam &amp; Insulation Colorado{% endif %}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="EZ Foam &amp; Insulation Colorado provides high-quality spray foam, blown-in, and batt insulation services in Southern Colorado. We help homeowners and businesses enhance energy efficiency and comfort.">
+
+  <!-- Dynamic Title -->
+  <title>
+    {% if page.title %}
+      {{ page.title }} | EZ Foam &amp; Insulation Colorado
+    {% else %}
+      Spray Foam Insulation Pueblo CO | EZ Foam &amp; Insulation Colorado
+    {% endif %}
+  </title>
+
+  <!-- Dynamic Meta Description -->
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}EZ Foam &amp; Insulation Colorado provides spray foam, blown-in, and batt insulation services in Pueblo, Colorado Springs, Canon City, and Southern Colorado.{% endif %}">
+
   <meta name="author" content="EZ Foam &amp; Insulation Colorado">
 
+  <!-- Canonical URL -->
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
 
-  <!-- Favicon and touch icons -->
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} | EZ Foam &amp; Insulation Colorado{% else %}EZ Foam &amp; Insulation Colorado{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Southern Colorado spray foam and insulation experts.{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url }}/images/hero.jpg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | EZ Foam &amp; Insulation Colorado{% else %}EZ Foam &amp; Insulation Colorado{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}Southern Colorado spray foam and insulation experts.{% endif %}">
+  <meta name="twitter:image" content="{{ site.url }}/images/hero.jpg">
+
+  <!-- Local Business Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "EZ Foam & Insulation Colorado",
+    "url": "https://ezfoamspray.com",
+    "telephone": "+1-719-822-0117",
+    "image": "https://ezfoamspray.com/images/hero.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Pueblo",
+      "addressRegion": "CO",
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      "Pueblo CO",
+      "Colorado Springs CO",
+      "Canon City CO",
+      "Southern Colorado"
+    ]
+  }
+  </script>
+
+  <!-- Favicon -->
   <link rel="shortcut icon" href="/assets/ico/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/ico/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/ico/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/ico/favicon-16x16.png">
   <link rel="manifest" href="/assets/ico/site.webmanifest">
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', '{{ site.google_analytics }}');
-</script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
 
-  <!-- CSS -->
   <!-- Google Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
   <!-- Vendor CSS -->
-  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css">
-  <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
-  <link rel="stylesheet" href="../assets/css/animate.min.css">
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/css/animate.min.css">
 
-  <!-- Theme and Custom CSS -->
-  <link rel="stylesheet" href="../assets/css/style.css">
-  <link rel="stylesheet" href="../assets/css/main.css">
-
+  <!-- Theme CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
 </head>
