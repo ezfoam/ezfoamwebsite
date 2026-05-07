@@ -698,3 +698,15 @@ p.cetc_pra {
   padding: 25px;
   border-radius: 12px;
 }
+@media (min-width: 992px) {
+  .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}
+
+.dropdown-menu {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
