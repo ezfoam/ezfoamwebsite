@@ -439,7 +439,7 @@ img.why-img {
   padding: 120px 0;
   background:
     linear-gradient(135deg, rgba(0, 72, 180, 0.88), rgba(0, 123, 255, 0.82)),
-    url('/images/intro_banner.jpg') no-repeat center center;
+    url('/images/barn-exterior.webp') no-repeat center center;
   background-size: cover;
   overflow: hidden;
 }
