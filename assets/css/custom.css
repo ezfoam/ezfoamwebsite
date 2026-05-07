@@ -436,11 +436,37 @@ img.why-img {
 }
 .gallery-banner{
   position: relative;
-  padding: 100px 0;
-  /* background: url('/images/intro_banner.jpg') no-repeat center center; */
+  padding: 120px 0;
+  background:
+    linear-gradient(135deg, rgba(0, 72, 180, 0.88), rgba(0, 123, 255, 0.82)),
+    url('/images/intro_banner.jpg') no-repeat center center;
   background-size: cover;
-  color: white;
-  text-align: center;
+  overflow: hidden;
+}
+
+.banner-overlay{
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.15);
+}
+
+.gallery-banner h1{
+  font-weight: 800;
+  font-size: 3.5rem;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.25);
+}
+
+.gallery-banner .breadcrumb-item,
+.gallery-banner .breadcrumb-item a{
+  color: #fff;
+}
+
+.gallery-banner .breadcrumb-item.active{
+  color: rgba(255,255,255,0.8);
+}
+
+.gallery-banner .breadcrumb-item + .breadcrumb-item::before{
+  color: rgba(255,255,255,0.7);
 }
 .spray-foam-banner{
   position: relative;
