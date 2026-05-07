@@ -710,3 +710,23 @@ p.cetc_pra {
   border: none;
   box-shadow: 0 10px 25px rgba(0,0,0,0.12);
 }
+#quick-quote {
+  position: relative;
+  overflow: hidden;
+}
+
+#quick-quote::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url('/images/vulture-gorilla-logo.webp') no-repeat center center;
+  background-size: 420px;
+  opacity: 0.06;
+  z-index: 0;
+  pointer-events: none;
+}
+
+#quick-quote .container {
+  position: relative;
+  z-index: 1;
+}
