@@ -133,7 +133,48 @@ description: EZ Foam & Insulation Colorado provides spray foam, batt, and blown-
           Serving Pueblo, Lamar, and Southern Colorado. Tell us about your project and we’ll get back to you.
         </p>
 
-        <!-- form goes here -->
+        <form id="quickQuoteForm" action="https://formspree.io/f/xdkgvlzl" method="POST">
+  <div class="row g-3">
+    
+    <div class="col-md-6">
+      <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+    </div>
+
+    <div class="col-md-6">
+      <input type="tel" class="form-control" name="phone" placeholder="Phone Number" required>
+    </div>
+
+    <div class="col-md-6">
+      <input type="email" class="form-control" name="email" placeholder="Email Address">
+    </div>
+
+    <div class="col-md-6">
+      <input type="text" class="form-control" name="city" placeholder="City / Service Area">
+    </div>
+
+    <div class="col-md-12">
+      <select name="service" class="form-control">
+        <option value="">Service Needed</option>
+        <option value="Spray Foam Insulation">Spray Foam Insulation</option>
+        <option value="Blown-in Insulation">Blown-in Insulation</option>
+        <option value="Batt Insulation">Batt Insulation</option>
+        <option value="Insulation Removal">Insulation Removal</option>
+      </select>
+    </div>
+
+    <div class="col-md-12">
+      <textarea class="form-control" name="projectDetails" rows="4"
+        placeholder="Tell us about your project"></textarea>
+    </div>
+
+    <div class="col-md-12 text-center">
+      <button type="submit" class="advanced-button mt-3">
+        Request Free Estimate
+      </button>
+    </div>
+
+  </div>
+</form>
       </div>
     </div>
   </section>
