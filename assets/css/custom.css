@@ -419,11 +419,74 @@ img.why-img {
   word-break: break-all;
 }
 
+/* Mobile-friendly contact form/card layout */
 
+.contact-section{
+  background:#fff;
+  border-radius:12px;
+  overflow:hidden;
+  box-shadow:0 5px 20px rgba(0,0,0,0.08);
+  margin:40px 0;
+}
 
+.contact-info{
+  background:linear-gradient(135deg,#007bff,#00c6ff);
+  color:#fff;
+  padding:40px 30px;
+  height:100%;
+}
 
+.contact-info h2,
+.contact-info h5,
+.contact-info h4,
+.contact-info p,
+.contact-info a{
+  color:#fff;
+}
 
+.info-item{
+  display:flex;
+  align-items:flex-start;
+  gap:15px;
+  margin-bottom:30px;
+}
 
+.info-item i{
+  font-size:20px;
+  margin-top:5px;
+}
+
+.social-links a{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  background:rgba(255,255,255,0.15);
+  color:#fff;
+  margin-right:10px;
+  transition:0.3s ease;
+}
+
+.social-links a:hover{
+  background:#fff;
+  color:#007bff;
+}
+
+@media (max-width: 768px){
+  .contact-section{
+    margin:20px 0;
+  }
+
+  .contact-info{
+    padding:30px 20px;
+  }
+
+  .google-map-container iframe{
+    height:300px;
+  }
+}
 
 
 .contact-banner {
