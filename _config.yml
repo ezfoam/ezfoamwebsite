@@ -39,6 +39,10 @@ nav_items:
 # You can optionally include it explicitly:
 include:
   - admin
+
+exclude:
+  - admin
+  - data
   
 plugins:
   - jekyll-sitemap
