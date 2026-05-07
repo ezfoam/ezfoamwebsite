@@ -44,3 +44,10 @@ exclude:
   
 plugins:
   - jekyll-sitemap
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      sitemap: true
