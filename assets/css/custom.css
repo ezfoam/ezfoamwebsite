@@ -480,6 +480,21 @@ img.why-img {
   color: white;
   text-align: center;
 }
+.batt-text-left {
+  padding-right: 45px;
+}
+
+.batt-text-right {
+  padding-left: 45px;
+}
+
+@media (max-width: 768px) {
+  .batt-text-left,
+  .batt-text-right {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 .blown-in-banner{
   position: relative;
   padding: 100px 0;
