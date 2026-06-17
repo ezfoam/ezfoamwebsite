@@ -1,0 +1,475 @@
+---
+title: Spray Foam Insulation Lamar CO
+description: Professional spray foam insulation services for homes, agricultural buildings, shops, and metal buildings in Lamar and Southeast Colorado.
+permalink: /spray-foam-insulation/lamar/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+  {% include navbar.html %}
+  <div class="top-banner py-1 d-none d-md-block">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div class="left-column">
+            <a href="mailto:ezfoam@outlook.com"><i
+                class="fa-solid pe-1 fa-envelope-open-text"></i>ezfoam@outlook.com</a>
+            <a class="ps-2" href="tel:719-822-0117"><i class="fa-solid fa-phone pe-1"></i>719-822-0117</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="right_column text-end">
+            <p>
+              <i class="fa-solid fa-location-dot"></i> Serving Lamar & Southeast Colorado
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <!------------------ Top slider -------------------->
+  <section>
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <img src="/images/slider/slide-insulation1.webp" class="d-block w-100 c-img" alt="Spray foam insulation installation in Lamar Colorado" />
+          <div class="carousel-caption d-flex flex-column justify-content-center align-items-center top-0 bottom-0">
+            <h1 class="">Spray Foam Insulation in Lamar, CO, CO</h1>
+            <h5 class="py-2">
+              Serving Lamar and Southeast Colorado with professional spray foam insulation for homes, agricultural buildings, shops, and commercial properties.
+            </h5>
+            <p class="mt-3 text-white small">
+  Residential • Agricultural • Commercial • Free Estimates • Serving Lamar & Southeast Colorado
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="/images/slider/slide-insulation2.webp" class="d-block w-100 c-img" alt="Closed-cell spray foam insulation project" />
+          <div class="carousel-caption d-flex flex-column justify-content-center align-items-center top-0 bottom-0">
+            <h2 class="">Advanced Spray Foam Insulation</h2>
+            <h5 class="py-2">
+              Providing superior sealing and energy savings for modern
+              constructions.
+            </h5>
+            <a href="/contact/" class="advanced-button mt-3">
+              Contact Us
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="/images/slider/slide-insulation3.webp" class="d-block w-100 c-img" alt="Blown-in attic insulation service in Southern Colorado" />
+          <div class="carousel-caption d-flex flex-column justify-content-center align-items-center top-0 bottom-0">
+            <h2 class="">Efficient Blown-In & Batt Insulation</h2>
+            <h5 class="py-2">
+              Tailored solutions to improve comfort and reduce energy costs.
+            </h5>
+            <a href="/contact/" class="advanced-button mt-3">
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light" id="quick-quote">
+    <div class="container">
+      <div class="contact-section p-4 p-md-5">
+        <h2 class="fw-bold text-center mb-3">Request a Free Insulation Estimate</h2>
+        <p class="text-center mb-4">
+          Serving Lamar and Southeast Colorado. Tell us about your project and we'll get back to you with a free estimate.
+        </p>
+
+        <form id="quickQuoteForm" action="https://formspree.io/f/xdkgvlzl" method="POST">
+  <div class="row g-3">
+    
+    <div class="col-md-6">
+      <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+    </div>
+
+    <div class="col-md-6">
+      <input type="tel" class="form-control" name="phone" placeholder="Phone Number" required>
+    </div>
+
+    <div class="col-md-6">
+      <input type="email" class="form-control" name="email" placeholder="Email Address">
+    </div>
+
+    <div class="col-md-6">
+      <input type="text" class="form-control" name="city" placeholder="City / Service Area">
+    </div>
+
+    <div class="col-md-12">
+      <select name="service" class="form-control">
+        <option value="">Service Needed</option>
+        <option value="Spray Foam Insulation">Spray Foam Insulation</option>
+        <option value="Blown-in Insulation">Blown-in Insulation</option>
+        <option value="Batt Insulation">Batt Insulation</option>
+        <option value="Insulation Removal">Insulation Removal</option>
+      </select>
+    </div>
+    
+    <div class="col-md-12">
+      <textarea class="form-control" name="projectDetails" rows="4"
+        placeholder="Tell us about your project"></textarea>
+      <div class="form-text">
+  Please include dimensions (W x L), height information, and roof pitch if applicable.
+</div>
+    </div>
+
+    <div class="col-md-12 text-center">
+      <button type="submit" class="advanced-button mt-3">
+        Request Free Estimate
+      </button>
+    </div>
+
+  </div>
+</form>
+      </div>
+    </div>
+  </section>
+  
+  <!------------------------------ About section ---------------------------------->
+  <section id="about" class="py-5 my-md-1">
+    <div class="container py-0 py-md-5">
+      <div class="row g-0 g-md-5">
+        <!-- Left Side: Image with Positioned Shape -->
+        <div class="col-lg-5 position-relative wow fadeLeft" data-wow-duration="1s">
+          <div class="shape-container wow fadeInLeft">
+            <div class="img-border">
+              <img class="img-fluid" src="/images/about.jpg" alt="Spray foam insulation team serving Colorado Springs Colorado" loading="lazy" />
+            </div>
+          </div>
+        </div>
+        <!-- Right Side: Content -->
+        <div class="col-lg-7 wow fadeInRight">
+          <div class="about_title">
+            <h2>Spray Foam Insulation Services in Colorado Springs</h2>
+          </div>
+          <p class="pt-2">
+  EZ Foam & Insulation Colorado provides spray foam insulation services for homeowners, farmers, ranchers, and businesses throughout Lamar and Southeast Colorado. Spray foam insulation is an excellent solution for the region's extreme temperature swings, helping improve comfort, reduce energy costs, and minimize unwanted air infiltration.
+          </p>
+          <br />
+          <p>
+  We frequently work on metal buildings, agricultural shops, equipment storage buildings, garages, crawl spaces, barns, new construction projects, and commercial properties. Whether you're trying to improve efficiency in a family home or maintain more stable temperatures in a large agricultural building, our team focuses on quality workmanship and long-term performance.
+          </p>
+          <br />
+          <p>
+  Our goal is to provide Lamar property owners with insulation solutions that fit their specific needs and budget. We proudly serve Lamar, Holly, Granada, Wiley, McClave, and surrounding Southeast Colorado communities.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------------------------ services section ---------------------------------->
+  <section class="Services py-5">
+    <div class="container pb-md-5">
+      <div class="service_info text-center mb-5 py-md-3">
+        <h2 class="fw-bold">EZ Foam & Insulation Colorado Services</h2>
+        <p class="text-muted">
+          Spray Foam Insulation for Homes & Businesses in Colorado Springs, CO with Advanced
+          Insulation Solutions
+        </p>
+      </div>
+      <div class="row g-4">
+        <!-- Spray Foam -->
+        <div class="col-md-4">
+          <div class="service-card h-100 wow fadeInUp" data-wow-delay="0.1s">
+            <i class="fas fa-spray-can service-icon"></i>
+            <h5 class="service-title">Spray Foam Insulation</h5>
+            <p>
+              Boost energy efficiency with our high-performance spray foam
+              insulation. Ideal for sealing gaps and reducing air leakage.
+            </p>
+            <a href="/spray-foam-insulation/" class="advanced-button mt-3">
+              Learn More
+            </a>
+          </div>
+        </div>
+        <!-- Batt Insulation -->
+        <div class="col-md-4">
+          <div class="service-card h-100 wow fadeInUp" data-wow-delay="0.2s">
+            <i class="fas fa-layer-group service-icon"></i>
+            <h5 class="service-title">Batt Insulation</h5>
+            <p>
+              Our batt insulation solutions provide effective thermal
+              resistance and fit perfectly between joists, studs, and rafters.
+            </p>
+            <a href="/batt-insulation/" class="advanced-button mt-3">
+              Learn More
+            </a>
+          </div>
+        </div>
+        <!-- Blown-in Insulation -->
+        <div class="col-md-4">
+          <div class="service-card h-100 wow fadeInUp" data-wow-delay="0.3s">
+            <i class="fas fa-wind service-icon"></i>
+            <h5 class="service-title">Blown-in Insulation</h5>
+            <p>
+              Cost-effective and excellent for hard-to-reach spaces in attics
+              and walls, offering improved comfort and savings.
+            </p>
+            <a href="/blown-in-insulation/" class="advanced-button mt-3">
+              Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------------------------ why choose us section ---------------------------------->
+  <section class="py-5">
+    <div class="container my-md-5">
+      <div class="row align-items-center flex-md-row flex-column-reverse">
+        <!-- Left Column -->
+        <div class="col-lg-6 mb-4 mb-lg-0 offset-md-1">
+          <div class="bg-dark text-white rounded-3 why-padding">
+            <div class="d-flex mb-4">
+              <div class="me-3">
+                <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center"
+                  style="width: 48px; height: 48px">
+                  <i class="fas fa-check-circle"></i>
+                </div>
+              </div>
+              <div>
+                <h5 class="fw-bold mb-1">We do quality work</h5>
+                <p class="mb-0 text-white">
+                  We protect your home to keep insulation dust out and we
+                  thoroughly clean up afterwards.
+                </p>
+              </div>
+            </div>
+
+            <div class="d-flex mb-4">
+              <div class="me-3">
+                <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center"
+                  style="width: 48px; height: 48px">
+                  <i class="fas fa-medal"></i>
+                </div>
+              </div>
+              <div>
+                <h5 class="fw-bold mb-1">We do what we say we will</h5>
+                <p class="mb-0 text-white">
+                  We show up on time, keep you informed, and use the right
+                  amount of insulation—or more!
+                </p>
+              </div>
+            </div>
+
+            <div class="d-flex">
+              <div class="me-3">
+                <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center"
+                  style="width: 48px; height: 48px">
+                  <i class="fas fa-users"></i>
+                </div>
+              </div>
+              <div>
+                <h5 class="fw-bold mb-1">Our team is friendly</h5>
+                <p class="mb-0 text-white">
+                  We treat every customer like family. Our crew is polite,
+                  fun, and might drop a corny joke or two.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="col-lg-5">
+          <div class="mb-4">
+            <h6 class="text-uppercase text-primary fw-bold mb-2">
+              Why Choose Us
+            </h6>
+            <h2 class="fw-bold">Why Choose EZ Foam & Insulation Colorado?</h2>
+          </div>
+          <img src="/images/why-choose.webp" alt="Spray foam insulation installation in Colorado Springs Colorado" class="img-fluid rounded shadow why-img"
+            loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row g-0 g-md-5 align-items-center">
+        <!-- Left Content -->
+        <div class="col-lg-6 wow fadeInLeft">
+          <h2 class="mb-4 fw-bold">
+            EZ Foam & Insulation Colorado: Trusted Insulation Experts
+          </h2>
+          <p class="mb-3">
+            EZ Foam & Insulation Colorado proudly serves Colorado Springs, El Paso County, 
+and surrounding Front Range communities with professional spray foam insulation services. 
+Our commitment to quality workmanship, reliable communication, and energy-efficient solutions 
+helps homeowners and businesses improve comfort and long-term performance.
+          </p>
+          <p class="mb-3">
+            Our experienced team stays up to date with the latest insulation
+            techniques to better serve both residential and commercial
+            clients.
+          </p>
+          <p class="mb-3">
+            We offer a comprehensive range of services tailored to your needs:
+          </p>
+          <ul class="mb-3 ps-3">
+            <li>Spray Foam Insulation</li>
+            <li>Batt Insulation</li>
+            <li>Blown-in Insulation</li>
+          </ul>
+          <p>
+            Our reputation is built on clear communication, dependable
+service, and a strong commitment to improving comfort and energy
+efficiency for homes and businesses throughout Colorado Springs
+and El Paso County.
+          </p>
+        </div>
+
+        <!-- Right Image -->
+        <div class="col-lg-6 text-center">
+          <div class="row g-2 pb-2">
+            <div class="col-md-6 pt-2 wow fadeIn" data-wow-delay="0.1s">
+              <img class="img-fluid rounded-2" src="/images/Insulation-Experts_1.jpg" alt="Spray foam insulation installation in Southern Colorado" loading="lazy" />
+            </div>
+            <div class="col-md-6 wow fadeIn" data-wow-delay=".2s">
+              <img class="img-fluid rounded-2" src="/images/Insulation-Experts_2.jpg" alt="Blown-in insulation project in Colorado Springs" loading="lazy" />
+            </div>
+          </div>
+          <div class="row g-2">
+            <div class="col-md-6 wow fadeIn" data-wow-delay=".3s">
+              <img class="img-fluid rounded-2" src="/images/Insulation-Experts_3.jpg" alt="Residential insulation services in Colorado Springs Colorado" loading="lazy" />
+            </div>
+            <div class="col-md-6 wow fadeIn" data-wow-delay=".4s">
+              <img class="img-fluid rounded-2" src="/images/Insulation-Experts_4.jpg" alt="Insulation installation project by EZ Foam & Insulation Colorado" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="py-5 bg-dark text-white">
+
+  <div class="container">
+
+    <h5 class="text-center text-white">Testimonials</h5>
+
+    <h2 class="text-center mb-5 fw-bold text-white">
+  What Our Clients Say
+</h2>
+
+    <!-- Elfsight Google Reviews -->
+    <script src="https://elfsightcdn.com/platform.js" async></script>
+
+    <div
+      class="elfsight-app-d48a1393-ecf2-4970-9699-a7c98fa551d1"
+      data-elfsight-app-lazy>
+    </div>
+
+  </div>
+
+</section>
+
+  <section class="py-5 m-auto">
+    <div class="container bg-primary text-center py-5 rounded-5 text-white">
+      <h2 class="fw-bold mb-3">Get Started</h2>
+      <p class="lead mb-4 text-white">
+        We Are Professional and Committed to Service
+      </p>
+      <p class="mb-4 fs-5 text-white">
+        Ready to <strong>IMPROVE</strong> your Comfort and your Energy Bills?
+      </p>
+      <a href="/contact/" class="btn btn-light btn-lg px-4 fw-semibold wow bounceIn">
+        Contact Us
+      </a>
+    </div>
+  </section>
+
+<section class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4">Learn More</h2>
+
+    <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+
+      <a href="/spray-foam-insulation/" class="advanced-button">
+        Spray Foam Services
+      </a>
+
+      <a href="/gallery/" class="advanced-button">
+        View Project Gallery
+      </a>
+
+      <a href="/contact/" class="advanced-button">
+        Request Free Estimate
+      </a>
+
+    </div>
+  </div>
+</section>
+  
+  <footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container">
+      <div class="row py-3">
+        <div class="col-md-4 mb-3 mb-md-0">
+          <img class="img-fluid py-1" src="/images/ezfoam-logo.webp" alt="EZ Foam & Insulation Colorado logo" style="width:30%">
+          <p class="mb-0 text-white">
+            Insulation can be one of the most cost-effective ways to improve
+            your comfort and energy bill.
+          </p>
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="/" class="text-white">Home</a></li>
+            <li><a href="/gallery/" class="text-white">Gallery</a></li>
+            <li>
+              <a href="/contact/" class="text-white">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+          <div class="col-md-4">
+            <h5>Services</h5>
+            <ul class="list-unstyled">
+              <li><a href="/spray-foam-insulation/" class="text-white">Spray Foam Insulation</a></li>
+              <li><a href="/batt-insulation/" class="text-white">Batt Insulation</a></li>
+              <li><a href="/blown-in-insulation/" class="text-white">Blown-in Insulation</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center pt-3 border-top border-secondary">
+        <p class="mb-0 text-white">
+          Copyright © 2026 EZ Foam & Insulation Colorado | All Rights Reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+<!-- JavaScript at the bottom -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/js/wow.min.js"></script>
+<script src="/assets/js/custom.js"></script>
+
+
+<!-------------------- animation active js---------------->
+<script>
+  new WOW().init();
+</script>
+
+
+
+</body>
+
+</html>
